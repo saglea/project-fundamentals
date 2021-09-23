@@ -3,8 +3,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-1)
-TODO: Update the path with the name of your diagram:
+1)Update the path with the name of your diagram:
       (Azure_Resource_Group.PNG)
 
 2)These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the .yml file may be used to install only certain pieces of it, such as Filebeat.
@@ -63,7 +62,7 @@ My IP address: 98.206.232.151
 ### Elk Configuration
 
 1)Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- _TODO: What is the main advantage of automating configuration with Ansible? Ansible is a free, open-source tool that is easy to set up. It is powerful, flexible and efficient. It allows you to have a highly complex IT workflow.  
+What is the main advantage of automating configuration with Ansible? Ansible is a free, open-source tool that is easy to set up. It is powerful, flexible and efficient. It allows you to have a highly complex IT workflow.  
 
 2)The playbook implements the following tasks:
 Install docker, io
