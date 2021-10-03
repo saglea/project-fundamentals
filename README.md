@@ -112,6 +112,7 @@ the playbook.
   http://20.85.247.221:5601/app/Kibana#/home
   (Kibana_access.PNG)(Kibana_access.PNG)
 ![Project 1 6 3](https://user-images.githubusercontent.com/91024338/135767226-04ee4d0c-c932-404a-b2c9-4d067ce869d1.PNG)
+![image](https://user-images.githubusercontent.com/91024338/135767416-ec1b27ff-4bbe-4c90-b521-2c3d2c5c8144.png)
 
 
 The playbook files are .yml files that can be run with ansible. 
