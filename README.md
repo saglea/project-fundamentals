@@ -101,8 +101,12 @@ the playbook.
 - SSH into the control node
 - Copy the elk_install.yml file to ansible control 
   (install_elk_yml.PNG)
+![install_elk_yml](https://user-images.githubusercontent.com/91024338/135767328-bcaa7e8f-17db-4548-b751-47032fb23f77.PNG)
+
 - Update the hosts file to include webserver and ELK
   (hosts_file.PNG)
+![Project 1 6 1](https://user-images.githubusercontent.com/91024338/135767207-f67c8b12-0144-4a12-a733-bf5494043fcf.PNG)
+
 - Run the playbook
 - Navigate to Kibana to check that the installation worked as expected
   http://20.85.247.221:5601/app/Kibana#/home
