@@ -130,6 +130,8 @@ The following are the specific commands the user will need to run the playbook, 
 - Create a new playbook: 
   touch /etc/ansible/install-elk.yml 
   (install_elk_yml.PNG)
+![install_elk_yml](https://user-images.githubusercontent.com/91024338/135767285-caf1ed76-d88e-493c-a86b-b0a8e4aa240e.PNG)
+
 
 Run the following commands to confirm the container is running and the playbook has updated properly:
 - sudo docker start <container name>
