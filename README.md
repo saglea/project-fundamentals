@@ -4,6 +4,7 @@
 The files in this repository were used to configure the network depicted below.
 
 (Azure_Resource_Group.PNG)
+![Homework 12 Final Diagram](https://user-images.githubusercontent.com/91024338/135767142-f636bcec-e3e4-414d-8021-eeba6bae229b.PNG)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to recreate the entire deployment pictured above. Alternatively, select 
 portions of the .yml file may be used to install only certain pieces of it, such as Filebeat.
@@ -40,6 +41,7 @@ Metricbeat monitors the performance of the different servers in the environment.
 The configuration details of each machine may be found below. 
 
 (Machine_Configuration_Table.PNG)
+![Project 1 3 10](https://user-images.githubusercontent.com/91024338/135767176-4d252011-60e2-426c-9737-0d87ac3a8f2f.PNG)
 
 
 ### Access Policies
@@ -55,6 +57,7 @@ I allowed machine 98.206.232.151 to access the ELK VM through Port 5601. The ELK
 A summary of the access policies in place can be found in the table below.
 
 (Access_Polices_Table.PNG)
+![Project 1 31 10](https://user-images.githubusercontent.com/91024338/135767183-4408ca34-77ed-4fc4-958c-90a21361b763.PNG)
 
 
 ### Elk Configuration
@@ -73,6 +76,7 @@ The playbook implements the following tasks:
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
 (docker_ps_output.png)
+![Project 1 4 3](https://user-images.githubusercontent.com/91024338/135767187-7d771ac5-a965-4d83-be30-9300993497d8.PNG)
 
 
 ### Target Machines & Beats
@@ -103,6 +107,8 @@ the playbook.
 - Navigate to Kibana to check that the installation worked as expected
   http://20.85.247.221:5601/app/Kibana#/home
   (Kibana_access.PNG)(Kibana_access.PNG)
+![Project 1 6 3](https://user-images.githubusercontent.com/91024338/135767226-04ee4d0c-c932-404a-b2c9-4d067ce869d1.PNG)
+
 
 The playbook files are .yml files that can be run with ansible. 
 They are located in /etc/ansible/roles/filebeat-playbook.yml.
@@ -119,6 +125,8 @@ The following are the specific commands the user will need to run the playbook, 
 - Add the VM that you want to use to run your ELK stack in the hosts file
   /etc/ansible/hosts , specify python with ansible_python_interpreter=/usr/bin/python3.
   (hosts_file.PNG)
+![Project 1 6 1](https://user-images.githubusercontent.com/91024338/135767207-f67c8b12-0144-4a12-a733-bf5494043fcf.PNG)
+
 - Create a new playbook: 
   touch /etc/ansible/install-elk.yml 
   (install_elk_yml.PNG)
